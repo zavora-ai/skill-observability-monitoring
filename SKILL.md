@@ -1,51 +1,9 @@
 ---
 name: observability-monitoring
 description: Orchestrate full-stack observability — query logs, search traces, monitor metrics, manage alerts, handle incidents, track SLOs, and execute runbooks. Use when debugging errors, investigating latency, checking service health, managing alerts, responding to incidents, reviewing SLO burn rate, or finding runbooks.
-version: "1.0.0"
 license: Apache-2.0
 compatibility: Requires mcp-observability server connected (Datadog, Grafana Cloud, New Relic, or Custom API).
-allowed-tools:
-  - query_logs
-  - get_log_stats
-  - get_errors
-  - tail_logs
-  - query_metric
-  - list_metrics
-  - get_system_health
-  - compare_metrics
-  - search_traces
-  - get_trace
-  - get_service_map
-  - get_latency_breakdown
-  - list_alerts
-  - get_alert
-  - create_alert
-  - acknowledge_alert
-  - list_incidents
-  - get_incident
-  - create_incident
-  - update_incident
-  - list_slos
-  - get_slo
-  - forecast_slo
-  - list_dashboards
-  - get_dashboard
-  - get_runbook
-  - list_services
-  - get_service
-tags:
-  - devops
-  - observability
-  - logs
-  - metrics
-  - traces
-  - alerts
-  - incidents
-  - slos
-references:
-  - references/tool-sequences.md
-  - references/cross-mcp-workflows.md
-  - references/examples.md
+allowed-tools: [query_logs, get_log_stats, get_errors, tail_logs, query_metric, list_metrics, get_system_health, compare_metrics, search_traces, get_trace, get_service_map, get_latency_breakdown, list_alerts, get_alert, create_alert, acknowledge_alert, list_incidents, get_incident, create_incident, update_incident, list_slos, get_slo, forecast_slo, list_dashboards, get_dashboard, get_runbook, list_services, get_service]
 metadata:
   author: Zavora AI
   mcp-server: mcp-observability
